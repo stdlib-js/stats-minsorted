@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@v0.3.0-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-dminsorted@esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-sminsorted@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch-factory@esm/index.mjs";var n=r({types:["float64","float32"],fcns:[e,d],default:t},[s("real_and_generic")],s("real_and_generic"),{output:"same",casting:"none"});const{assign:a}=n;export{a as assign,n as default};
-//# sourceMappingURL=index.mjs.map
