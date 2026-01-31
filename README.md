@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@v0.1.0-deno/mod.js';
 ```
 
 #### minsorted( x\[, options] )
@@ -198,7 +198,7 @@ The method accepts the following options:
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-linspace@deno/mod.js';
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@v0.1.0-deno/mod.js';
 
 // Generate a sorted ndarray:
 var x = linspace( [ 5, 5 ], -10.0, 10.0 );
