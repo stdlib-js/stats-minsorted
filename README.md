@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-minsorted/tags). For example,
+
+```javascript
 import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@v0.1.0-deno/mod.js';
 ```
 
@@ -198,7 +203,7 @@ The method accepts the following options:
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-linspace@deno/mod.js';
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@v0.1.0-deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-minsorted@deno/mod.js';
 
 // Generate a sorted ndarray:
 var x = linspace( [ 5, 5 ], -10.0, 10.0 );
